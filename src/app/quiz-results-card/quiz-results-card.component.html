@@ -1,0 +1,31 @@
+<div class="card results-card">
+  <h2 class="card-title">Results</h2>
+  <div class="card-body">
+    <p>
+      {{
+        scores["designPatternScore"] +
+          scores["angularScore"] +
+          scores["javaScore"]
+      }}
+      of 15 questions answered correctly
+    </p>
+
+    <div class="categories-container">
+      <h3>Categories</h3>
+      <ul class="categories-list">
+        <li class="category-item">
+          <span>Design Patterns</span>
+          <span> {{ scores["designPatternScore"] }} of 5</span>
+        </li>
+        <li class="category-item">
+          <span>Angular</span>
+          <span>{{ scores["angularScore"] }} of 5</span>
+        </li>
+        <li class="category-item">
+          <span>Java</span>
+          <span>{{ scores["javaScore"] }} of 5</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

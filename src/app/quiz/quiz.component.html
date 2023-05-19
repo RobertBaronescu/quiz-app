@@ -1,0 +1,27 @@
+<div class="row cards-container">
+  <div class="col-lg-8 col-md-12">
+    <app-quiz-questions-card
+      [question]="question"
+      (prevNextButtonEmitter)="onQuizButtonEmitted($event)"
+    ></app-quiz-questions-card>
+    <div class="submit-buttons-container">
+      <button type="button" class="btn btn-dark" (click)="submitPageClicked()">
+        Submit page
+      </button>
+      <button
+        type="button"
+        class="btn btn-success"
+        (click)="submitAllClicked()"
+      >
+        Submit all and finish
+      </button>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-12">
+    <app-quiz-navigator
+      #quizNavComponent
+      (quizButtonEmitter)="onQuizButtonEmitted($event)"
+      [questionIDs]="getQuestionsIDs()"
+    ></app-quiz-navigator>
+  </div>
+</div>

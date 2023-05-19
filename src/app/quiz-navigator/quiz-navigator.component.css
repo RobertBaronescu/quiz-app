@@ -1,0 +1,14 @@
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.1rem;
+  flex-wrap: wrap;
+}
+
+.quiz-nav-button {
+  border-radius: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #aabdff;
+  color: white;
+  border: none;
+}

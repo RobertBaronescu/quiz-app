@@ -1,0 +1,22 @@
+<section class="core-section container">
+  <div class="title-container"><h1 class="title">Quiz Application UI</h1></div>
+  <ng-container *ngIf="!showResults">
+    <div class="select-quiz-container">
+      <strong>Select quiz:</strong>
+      <div>
+        <select class="form-select" [(ngModel)]="selectedTopic">
+          <option [value]="topic" *ngFor="let topic of topics">
+            {{ topic }}
+          </option>
+        </select>
+      </div>
+    </div>
+
+    <app-quiz
+      [selectedTopic]="selectedTopic"
+      (submitPageEmitter)="submitPageEmitted()"
+      (submitAllEmitter)="submitAllEmitted()"
+    ></app-quiz>
+  </ng-container>
+  <app-quiz-results-card *ngIf="showResults"></app-quiz-results-card>
+</section>

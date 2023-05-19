@@ -1,0 +1,24 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Question {{ question?.id }}</h5>
+    <p class="card-text">
+      {{ question?.question }}
+    </p>
+
+    <div class="list-group">
+      <button
+        type="button"
+        class="list-group-item list-group-item-action"
+        *ngFor="let answer of question?.answers"
+        (click)="answerClicked(answer)"
+        [class.active]="userAnswer === answer"
+      >
+        {{ answer }}
+      </button>
+    </div>
+    <div class="prev-next-buttons-container">
+      <button type="button" class="btn btn-outline-dark" (click)="onPrevButtonClick()">Prev</button>
+      <button type="button" class="btn btn-outline-dark" (click)="onNextButtonClick()">Next</button>
+    </div>
+  </div>
+</div>

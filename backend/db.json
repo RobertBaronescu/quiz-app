@@ -1,0 +1,174 @@
+{
+  "design_patterns": [
+    {
+      "id": 1,
+      "question": "Which design pattern is used to provide a surrogate or placeholder for another object?",
+      "answers": [
+        "Proxy pattern",
+        "Observer pattern",
+        "Adapter pattern",
+        "Decorator pattern"
+      ],
+      "correct_answer": "Proxy pattern"
+    },
+    {
+      "id": 2,
+      "question": "Which design pattern is used to ensure a class has only one instance and provides a global point of access to it?",
+      "answers": [
+        "Strategy pattern",
+        "Builder pattern",
+        "Singleton pattern",
+        "Facade pattern"
+      ],
+      "correct_answer": "Singleton pattern"
+    },
+    {
+      "id": 3,
+      "question": "Which design pattern is used to separate the construction of an object from its representation, allowing the same construction process to create various representations?",
+      "answers": [
+        "Builder pattern",
+        "Factory pattern",
+        "Abstract Factory pattern",
+        "Prototype pattern"
+      ],
+      "correct_answer": "Builder pattern"
+    },
+    {
+      "id": 4,
+      "question": "Which design pattern is used to define a family of algorithms, encapsulate each one, and make them interchangeable at runtime?",
+      "answers": [
+        "Observer pattern",
+        "Template Method pattern",
+        "Strategy pattern",
+        "Command pattern"
+      ],
+      "correct_answer": "Strategy pattern"
+    },
+    {
+      "id": 5,
+      "question": "Which design pattern is used to provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation?",
+      "answers": [
+        "Visitor pattern",
+        "Composite pattern",
+        "Flyweight pattern",
+        "Iterator pattern"
+      ],
+      "correct_answer": "Iterator pattern"
+    }
+  ],
+  "angular": [
+    {
+      "id": 6,
+      "question": "What is Angular?",
+      "answers": [
+        "A framework for building web applications",
+        "A programming language",
+        "A database management system",
+        "A design pattern"
+      ],
+      "correct_answer": "A framework for building web applications"
+    },
+    {
+      "id": 7,
+      "question": "What is TypeScript?",
+      "answers": [
+        "A superset of JavaScript",
+        "A version control system",
+        "A server-side scripting language",
+        "A markup language for web development"
+      ],
+      "correct_answer": "A superset of JavaScript"
+    },
+    {
+      "id": 8,
+      "question": "What is dependency injection in Angular?",
+      "answers": [
+        "A design pattern to manage software dependencies",
+        "A technique to inject CSS styles into Angular components",
+        "A mechanism to inject data into Angular templates",
+        "A way to inject services or objects into components"
+      ],
+      "correct_answer": "A way to inject services or objects into components"
+    },
+    {
+      "id": 9,
+      "question": "What is an Angular component?",
+      "answers": [
+        "A reusable building block for UI elements",
+        "A virtual representation of a web page",
+        "A function that performs a specific task in Angular",
+        "A database table in Angular"
+      ],
+      "correct_answer": "A reusable building block for UI elements"
+    },
+    {
+      "id": 10,
+      "question": "What is Angular CLI?",
+      "answers": [
+        "A command-line interface for Angular development",
+        "A graphical user interface for Angular development",
+        "A cloud-based development environment for Angular",
+        "A testing framework for Angular applications"
+      ],
+      "correct_answer": "A command-line interface for Angular development"
+    }
+  ],
+  "java": [
+    {
+      "id": 11,
+      "question": "What is Java?",
+      "answers": [
+        "A programming language",
+        "An operating system",
+        "A database management system",
+        "A web browser"
+      ],
+      "correct_answer": "A programming language"
+    },
+    {
+      "id": 12,
+      "question": "What is the main feature of Java?",
+      "answers": [
+        "Platform independence",
+        "High-performance graphics",
+        "Real-time data processing",
+        "Artificial intelligence capabilities"
+      ],
+      "correct_answer": "Platform independence"
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of the Java Virtual Machine (JVM)?",
+      "answers": [
+        "To execute Java bytecode",
+        "To compile Java source code",
+        "To debug Java programs",
+        "To manage memory in Java applications"
+      ],
+      "correct_answer": "To execute Java bytecode"
+    },
+    {
+      "id": 14,
+      "question": "What is an object in Java?",
+      "answers": [
+        "An instance of a class",
+        "A loop construct",
+        "A database table",
+        "A data type"
+      ],
+      "correct_answer": "An instance of a class"
+    },
+    {
+      "id": 15,
+      "question": "What is an exception in Java?",
+      "answers": [
+        "An error condition that occurs during program execution",
+        "A reserved keyword in the Java language",
+        "A method for handling user input",
+        "A graphical user interface component"
+      ],
+      "correct_answer": "An error condition that occurs during program execution"
+    }
+  ],
+  "user_answers": []
+}
